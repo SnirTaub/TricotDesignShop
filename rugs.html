@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="rugs.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>Rugs - TricotDesign</title>
+    </head>
+    <body dir="rtl">
+        <header>
+           <div class="headercontainer">
+            <div class="lefticons" dir="ltr">
+                <img src="images/shoppingcart.jpg" alt="shoppingcart">
+                <img src="images/user.png" alt=userlogin>
+                <h3 class="language">EN</h3>
+            </div>
+            <div class="righticons">
+                <img src="images/whatsapp-icon.png" alt="whatsapp">
+                <img src="images/instagram-icon.jpg" alt="instagram">
+                <img src="images/facebook-icon.png" alt="facebook">
+            </div>
+            <div class="searchbar">
+                <input type="text" id="search" placeholder="חיפוש" name="search" onchange="filterNames()">
+                <button type="submit"><i class="fa fa-search"></i></button>
+               </form>
+            </div>
+            <div class="logo">
+                <img src="images/Logo.jpg" alt=sitelogo>
+                
+            </div>
+           </div>
+        </header>
+        <main>
+            <div class="navbar">
+                <a href="index.html" id="navnav">דף הבית</a>
+                <div class="dropdown">
+                    <button class="dropbtn" id="navnav">חנות 
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a class="active" href="rugs.html">שטיחים סרוגים</a>
+                        <a href="#">סלים וסלסלות</a>
+                        <a href="#">תליוני עין</a>
+                        <a href="#">רעשנים לתינוקות</a>
+                        <a href="#">קשת סרוגה</a>
+                        <a href="#">מארזי לידה</a>
+                        <a href="#">SALE</a>
+                    </div> 
+                </div>
+                <a href="#" id="navnav">אודות</a>
+                <a href="#home" id="navnav">צור קשר</a>
+         </div>
+         <div class="rugs-container">
+            <div class="rug">
+                <img src="images/rugs/rug1.jpg" alt="rug1">
+                <h5>850.00 - 450.00</h5>
+                <div class="overlay">
+                    <a class="toproduct" href="#">למוצר</a>
+                </div>
+            </div>
+            <div class="rug">
+                <img src="images/rugs/rug2.jpg" alt="rug2">
+                <h5>850.00 - 450.00</h5>
+                <div class="overlay">
+                    <a class="toproduct" href="#">למוצר</a>
+                </div>
+            </div>
+            <div class="rug">
+                <img src="images/rugs/rug3.jpg" alt="rug3">
+                <h5>850.00 - 450.00</h5>
+                <div class="overlay">
+                    <a class="toproduct" href="#">למוצר</a>
+                </div>
+            </div>
+            <div class="rug">
+                <img src="images/rugs/rug4.jpg" alt="rug4">
+                <h5>-450.00-</h5>
+                <div class="overlay">
+                    <a class="toproduct" href="#">למוצר</a>
+                </div>
+            </div>
+            <div class="rug">
+                <img src="images/rugs/rug5.jpg" alt="rug5">
+                <h5>850.00 - 450.00</h5>
+                <div class="overlay">
+                    <a class="toproduct" href="#">למוצר</a>
+                </div>
+            </div>
+            <div class="rug">
+                <img src="images/rugs/rug6.jpg" alt="rug6">
+                <h5>850.00 - 450.00</h5>
+                <div class="overlay">
+                    <a class="toproduct" href="#">למוצר</a>
+                </div>
+            </div>
+            <div class="rug">
+                <img src="images/rugs/rug7.jpg" alt="rug7">
+                <h5>850.00 - 450.00</h5>
+                <div class="overlay">
+                    <a class="toproduct" href="#">למוצר</a>
+                </div>
+            </div>
+            <div class="rug">
+                <img src="images/rugs/rug8.jpg" alt="rug8">
+                <h5>850.00 - 450.00</h5>
+                <div class="overlay">
+                    <a class="toproduct" href="#">למוצר</a>
+                </div>
+            </div>
+            <div class="rug">
+                <img src="images/rugs/rug9.jpg" alt="rug9">
+                <h5>850.00 - 450.00</h5>
+                <div class="overlay">
+                    <a class="toproduct" href="#">למוצר</a>
+                </div>
+            </div>
+            <div class="rug">
+                <img src="images/rugs/rug10.jpg" alt="rug10">
+                <h5>850.00 - 450.00</h5>
+                <div class="overlay">
+                    <a class="toproduct" href="#">למוצר</a>
+                </div>
+            </div>
+            <div class="rug">
+                <img src="images/rugs/rug11.jpg" alt="rug11">
+                <h5>850.00 - 450.00</h5>
+                <div class="overlay">
+                    <a class="toproduct" href="#">למוצר</a>
+                </div>
+            </div>
+            <div class="rug">
+                <img src="images/rugs/rug12.jpg" alt="rug12">
+                <h5>850.00 - 450.00</h5>
+                <div class="overlay">
+                    <a class="toproduct" href="#">למוצר</a>
+                </div>
+            </div>
+            <div class="rug">
+                <img src="images/rugs/rug13.jpg" alt="rug13">
+                <h5>850.00 - 450.00</h5>
+                <div class="overlay">
+                <a class="toproduct" href="#">למוצר</a>
+                </div>
+            </div>
+        </div>
+</main>
+<footer>
+    <div class="footercontainer">
+        <div class="right" dir="rtl">
+        <h3>צרו קשר</h3>
+        <ul>
+            <li>0542360720</li>
+            <li>DorinTaub@Gmail.com</li>
+        </ul>
+        <h5>הקנייה באתר מאובטחת</h5><br>
+        <img src="/images/ssl-secured.jpg" alt="Secured by SSL">
+        </div>
+        <div class="center">
+        <h3>משלוחים לכל הארץ</h3>
+        <img src="images/delivery.png" alt="Delivery icon">
+        <h5>כל הזכויות שמורות Ⓒ</h5>
+        </div>
+        <div class="left" dir=ltr>
+        <h3>לעדכונים נוספים והטבות</h3>
+        <h5>Follow us</h5>
+        <img src="/images/facebook-icon.png" alt="Facebook link">
+        <img src="images/instagram-icon.jpg" alt="Instagram link">
+        </div>
+    </div>
+</footer>
+</body>
+</html>

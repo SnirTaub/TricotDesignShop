@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User - LOGIN</title>
+    <script src="https://kit.fontawesome.com/87f71838b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    
+    <div class="container right-panel-active">
+        <div dir="rtl" class="container_form container-signup">
+            <form action="#" class="form" id="form1">
+                <h2 class="form_title">הירשם</h2>
+               <input type="text" placeholder="שם משתמש" class="input"/>
+               <input type="email" placeholder='דוא"ל' class="input"/>
+               <input type="password" placeholder="סיסמה" class="input"/>
+               <button class="btn">הירשם</button>
+            </form>
+        </div>
+        
+        <div dir="rtl" class="container_form container-signin">
+            <form action="#" class="form" id="form2">
+                <h2 class="form_title">התחבר</h2>
+                <input type="email" placeholder='דוא"ל' class="input"/>
+                <input type="password" placeholder="סיסמה" class="input"/>
+                <a href="#" class="link">שכחת את הסיסמה?</a>
+                <button class="btn">התחבר</button>
+            </form>
+        </div>
+        
+        <div class="container_overlay">
+            <div class="overlay">
+                <div class="overlay_panel overlay-left">
+                    <button class="btn" id="signIn">התחבר</button>
+                </div>
+                <div class="overlay_panel overlay-right">
+                    <button class="btn" id="signUp">הירשם</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="user.js"></script>
+</body>
+</html>

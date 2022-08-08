@@ -1,0 +1,105 @@
+.rugs-container {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    flex-flow:row wrap;
+    margin-top: -10px;
+    padding-bottom: 100px;
+  }
+  
+  .rugs img{
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 50px;
+    height: 250px;
+    width: 275px;
+    border: 2px solid black;
+  }
+  
+  .rug {
+    position: relative;
+    max-width: 300px;
+    margin-right: 150px;
+    margin-top: 0px;
+    left: 175px;
+    top: 75px;
+  }
+  
+  .rug img {
+    width: 100%;
+  }
+  
+  .rug a {
+    color:rgb(204, 131, 131);
+    background-color: rgba(0,0,0,0.6);
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 450;
+  }
+  
+  .rug .overlay {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.0);
+    color: white;
+    visibility: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .rug:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .rug a:hover, .rug img:hover {
+    opacity: 0.8;
+    background-color: blanchedalmond;
+    color: black;
+    font-weight: 600;
+    box-shadow: 5px 10px 10px #000000;
+  }
+  
+  .rug h5 {
+    position: relative;
+    top: 10px;
+    right: 175px;
+  
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 1366px){
+    .rugs-container img{
+        height: 200px !important;
+        width: 225px !important;
+        border-radius: 20%;
+  
+    }
+    .rug {
+        margin: 10px !important;
+        top: 30px !important;
+        left: 40px !important;
+    }
+    .rug h5 {
+      right: 45px !important;
+    }
+
+    .rug .overlay{
+      margin-right: -35px !important;
+    }
+}
+
+
+
+    
+
+
+
+  
